@@ -1,0 +1,14 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+\begin{align*}\tau_{s}\dot{I}_{s} + I_{s} & = W\cdot z_i(t) \\
+\tau_{m}\dot{V}_{m} + V_{m} & = I_{s} + b \\
+V_m(t_j) > \theta & \rightarrow
+\begin{cases}
+  V_m(t_j) \leftarrow V_m(t_j) - \theta \\
+  z_o(t) \leftarrow z_o(t) + \delta(t_j) \\
+\end{cases}\end{align*}
+\end{document}
